@@ -150,7 +150,7 @@ h4{
 
 }
 .course-detail{
-    width: 63%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -411,10 +411,7 @@ footer{
     }
     #courses-menu-3{
         margin-bottom: 0px;
-    }
-    .courses {
-        height: 230vh;
-       
+        width: 100%;
     }
     .course-detail {
         width: 85%;
@@ -518,6 +515,15 @@ footer{
         width: 38%;
     }
     
+} 
+@media screen and (max-width: 480px) {
+    .course-detail {
+        margin-top: 30px;
+        width: 70%;
+    }
+    .slider-text div p {
+        font-size: 18px;
+    }
 }
 @media screen and (max-width: 440px){
     .logo a {
@@ -525,7 +531,7 @@ footer{
     }
     .course-detail {
         margin-top: 50px;
-        width: 65%;
+        width: 75%;
     }
     .courses-conteiner {
         width: 85%;
@@ -540,13 +546,12 @@ footer{
     .logo a {
         width: 90%;
     }
-    .course-detail {
-        width: 65%;
-    }
     #grid-rule-mail a{
         padding: 12px 30px;
     }
-   
+   .slider-text div p {
+        font-size: 16px;
+    }
 
 }
 @media screen and (max-width: 360px){
@@ -585,7 +590,7 @@ footer{
     justify-content: flex-start;
     }
     .course-detail {
-        width: 80%;
+        width: 90%;
     }
 }
 
