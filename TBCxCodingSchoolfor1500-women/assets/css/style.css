@@ -113,6 +113,9 @@ h4{
     justify-content: space-between;
     margin-bottom: 20px;
 }
+#courses-menu-3 {
+    margin-top: 40px;
+}
 .course-item{
     width: 30%;
     height: 400px;
@@ -128,7 +131,7 @@ h4{
     border-top-left-radius:  10px;
 }
 .course-info{
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 .course-info h5{
@@ -138,6 +141,7 @@ h4{
 .course-info p{
     color: rgb(244, 244, 244);
     font-size: 14px;
+    font-family: alk-sanet;
     margin-bottom: 70px;
     
 }
@@ -149,7 +153,8 @@ h4{
     width: 63%;
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    font-family: mrgvlovani;
 }
 .course-detail a, i{
     color: rgb(0, 174, 239);
@@ -181,8 +186,9 @@ h4{
     position: relative;
 }
 .slider-text div p{
-color: white;
-    font-size: 26px;
+    font-family: 'mrgvlovani';
+    color: white;
+    font-size: 24px;
     letter-spacing: 1px;
     position: absolute;
 }
@@ -260,6 +266,7 @@ color: white;
 .question-link span{
     color: #F4F4F4;
     font-size: 24px;
+    font-family: alk-sanet;
 }
 .question-link a{
     color: rgb(0, 174, 239);
@@ -468,7 +475,7 @@ footer{
     }
     .course-detail{
         margin-top: 30px;
-        width: 52%;
+        width: 60%;
     }
     .course-item {
         width: 100%;
@@ -556,8 +563,10 @@ footer{
     .logo {
         width: 60%;
     }
-    
-    
+    .course-info {
+        width: 85%;
+        margin: auto;
+    }
     
     .question {
         max-height: 255vh;
@@ -576,7 +585,7 @@ footer{
     justify-content: flex-start;
     }
     .course-detail {
-        width: 85%;
+        width: 80%;
     }
 }
 
