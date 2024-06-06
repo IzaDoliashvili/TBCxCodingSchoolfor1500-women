@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'sans';
-    src: url(../font/open-sans.light.ttf);
-}
+    font-family: 'mrgvlovani';
+    src: url(../font/bpg_mrgvlovani_caps_2010.ttf);
+  }
 @font-face {
-    font-family: 'roboto';
-    src: url(../font/Roboto-Light.ttf);
+    font-family: 'alk-sanet';
+    src: url(../font/alk-sanet.ttf);
 }
 body{
     margin: 0px;
